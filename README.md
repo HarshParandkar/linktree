@@ -15,7 +15,7 @@ This is a simple custom Linktree page created to showcase my professional links,
 
 ## Getting Started
 
-To view my Linktree, visit: [https://username.github.io/linktree](https://username.github.io/linktree)
+To view my Linktree, visit: [https://HarshParandkar.github.io/linktree](https://HarshParandkar.github.io/linktree)
 
 ### Clone the Repository
 

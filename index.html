@@ -14,7 +14,22 @@
             <p>B-Tech in CSE | Machine Learning Enthusiast | Passionate about AI & Data Science</p>
         </header>
         <main>
-            <div class="panel-container">
+            <section class="links">
+                <a href="https://HarshParandkar.github.io" target="_blank" class="btn">
+                    <i class="fas fa-globe"></i> My Portfolio
+                </a>
+                <a href="https://github.com/HarshParandkar" target="_blank" class="btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/harsh-parandkar-66705b253" target="_blank" class="btn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://drive.google.com/file/d/1jpnyPOnW0OU3AqiGVVHlSm-IrmHo2UFO/view?usp=sharing" target="_blank" class="btn">
+                    <i class="fas fa-file-download"></i> Download My Resume
+                </a>
+            </section>
+
+        <div class="panel-container">
                 <section class="panel left">
                     <h3>Projects</h3>
                     <ul>
@@ -111,23 +126,64 @@
 </html>
 
 <style>
-    .panel-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 20px;
-    }
-    .panel {
-        flex: 1;
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff7eb3);
+        color: white;
+        text-align: center;
+        margin: 0;
         padding: 20px;
+    }
+    .container {
+        max-width: 500px;
+        margin: auto;
         background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        padding: 20px;
         border-radius: 15px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     }
-    .left {
-        text-align: left;
+    header {
+        margin-bottom: 20px;
     }
-    .right {
-        text-align: left;
+    .btn {
+        display: block;
+        padding: 15px;
+        margin: 10px 0;
+        background: white;
+        color: #ff758c;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: 0.3s;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
+    .btn:hover {
+        background: #ff4f7b;
+        color: white;
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+    footer {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .panel-container {
+    display: flex;
+    gap: 20px; /* Adds spacing between the panels */
+}
+
+.panel {
+    flex: 1; /* Allows the panels to take equal space */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+.left, .right {
+    width: 48%; /* Adjust width as needed */
+}
+
 </style>
